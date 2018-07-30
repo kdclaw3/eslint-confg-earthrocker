@@ -1,8 +1,7 @@
 {
 	"name": "eslint-confg-earthrocker",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Eslint useful rules and conventions for earth rocker projects.",
-	"main": ".eslintrc.js",
 	"keywords": [
 		"eslint"
 	],
