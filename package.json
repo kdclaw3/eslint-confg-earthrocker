@@ -1,23 +1,28 @@
 {
 	"name": "eslint-confg-earthrocker",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Eslint useful rules and conventions for earth rocker projects.",
 	"keywords": [
 		"eslint"
 	],
+	"main": "index.js",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:kdclaw3/eslint-confg-earthrocker.git"
 	},
 	"author": "Dee Clawson",
 	"license": "MIT",
-	"dependencies": {
+	"scripts": {
+		"lint": "eslint . --ext=js --fix;  exit 0"
+	},
+	"peerDependencies": {
 		"babel-eslint": "^8.2.x",
 		"eslint": "^5.2.x",
 		"eslint-plugin-react": "^7.10.x"
 	},
-	"scripts": {
-		"lint": "eslint . --ext=js --fix;  exit 0"
-	},
-	"peerDependencies": {}
+	"optionalDependencies": {
+		"babel-eslint": "^8.2.x",
+		"eslint": "^5.2.x",
+		"eslint-plugin-react": "^7.10.x"
+	}
 }
