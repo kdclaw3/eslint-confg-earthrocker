@@ -1,6 +1,6 @@
 {
-	"name": "eslint-confg-earthrocker",
-	"version": "1.0.3",
+	"name": "eslint-config-earthrocker",
+	"version": "1.1.0",
 	"description": "Eslint useful rules and conventions for earth rocker projects.",
 	"keywords": [
 		"eslint"
